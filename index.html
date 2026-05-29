@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        /* Simple at Malinis na CSS */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .welcome-card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #1a73e8;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        p {
+            color: #5f6368;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background-color: #1a73e8;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1557b0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ang Nilalaman ng Website -->
+    <div class="welcome-card">
+        <h1>Welcome, User! 👋</h1>
+        <p>Masaya kaming makita ka muli sa aming simpleng website. Kumusta ang araw mo ngayon?</p>
+        <button class="btn" onclick="alert('Salamat sa pagbisita!')">Magpatuloy</button>
+    </div>
+
+</body>
+</html>
